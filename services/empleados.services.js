@@ -21,6 +21,7 @@ const EmpleadosServices = {
             body.extension,
             body.email,
             body.jefe,
+            body.cargo,
             body.id_oficina
         ]
         const sql = 'INSERT INTO empleados (documento, apellido, nombre, extension, email, jefe, id_oficina) VALUES (?, ?, ?, ?, ?, ?, ?)';
@@ -37,6 +38,7 @@ const EmpleadosServices = {
             body.extension,
             body.email,
             body.jefe,
+            body.cargo,
             body.id_oficina,
             id
         ]
